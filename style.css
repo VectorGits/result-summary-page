@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+:root {
+    /* Primary */
+    --light-red: hsl(0, 100%, 67%);
+    --orangey-yellow: hsl(39, 100%, 56%);
+    --green-teal: hsl(166, 100%, 37%);
+    --cobalt-blue :hsl(234, 85%, 45%);
+
+    /* Gradients */
+    --light-slate-blue-bg: hsl(252, 100%, 67%);
+    --light-royal-blue-bg: hsl(241, 81%, 54%);
+    --violet-blue-cl: hsla(256, 72%, 46%, 1);
+    --persian-blue-cl: hsla(241, 72%, 46%, 0);
+
+    /* Neutral */
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.result {
+    /* height: 40vh; */
+    outline: 1px solid blue;
+    border-radius: 0em 0em 2em 2em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 1em;
+    color: var(--White);
+    background-color: var(--violet-blue-cl);
+}
+
+.avg-score {
+    outline: 1px solid blue;
+    /* padding: 1em 1.5em; */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    z-index: 1;
+    position: relative;
+    display: inline-grid;
+    place-items: center;
+}
+
+.avg-score-no {
+    font-size: 35px;
+    font-weight: 600;
+    outline: 1px solid blue;
+}
+
+.paragraph-one {
+    font-size: 18px;
+    font-weight: 500;
+}
+    
+    .summary {
+        padding-inline: 1em;
+    }
+
+    .summary > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em 0em;
+        border-radius: .8em;
+        margin-bottom: 1em;
+        outline: 1px solid blue;
+    }
+
+    .summary > div > span:first-of-type {
+        /* margin-bottom: 1em; */
+        outline: 1px solid blue;
+    }
+
+    .btn {
+        width: 100%;
+        padding: .8em 0em;
+        border-radius: 2em;
+        background-color: var(--Dark-gray-blue);
+        color: var(--White);
+        font-weight: 500;
+        font-size: 18px;
+        border: none;
+        /* outline: 1px solid blue; */
+    }
+
+    .btn:onhover {
+        cursor: pointer;
+    }
