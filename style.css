@@ -39,7 +39,7 @@ body {
 
 .result {
     /* height: 40vh; */
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
     border-radius: 0em 0em 2em 2em;
     align-items: center;
     display: flex;
@@ -194,18 +194,20 @@ body {
 
     .btn:hover {
         cursor: pointer;
+        background-color: var(--light-royal-blue-bg);
     }
 
       .attribution {
-        font-size: 14px;
+        font-size: 13px;
         text-align: center;
         padding: 2em 0em 2em 0em;
         border-radius: 2em 2em 0em 0em;
-        background-color: var(--Dark-gray-blue);
-        color: #fff;
+        /* background-color: var(--Dark-gray-blue); */
+        color: var(--Dark-gray-blue);
+        margin-top: 1em;
     }
       .attribution a {
-        color: hsl(166, 100%, 49%);
+        color: var(--cobalt-blue);
     }
 
     @media (min-width: 426px) {
